@@ -52,8 +52,17 @@ case 2:
      break;
 
 case 3:
+    void printList(Node*) {
+        while(i!=nullptr) {
+            cout<<i->songTitle<<endl;
+            i=i->next;
+        }
+        cout<<"NULL"<<endl;
+    }
 
-     break;
+    printList(i);
+
+    break;
 
 case 4:
     cout<<"Goodbye!!"<<endl;
